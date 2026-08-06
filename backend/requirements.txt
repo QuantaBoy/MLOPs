@@ -1,0 +1,34 @@
+# SmartSupport MLOps — FastAPI Backend Requirements
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# Data validation
+pydantic==2.10.4
+
+# ML / Data Science (for production XGBoost pipeline)
+scikit-learn==1.6.0
+xgboost==2.1.3
+numpy==2.2.1
+pandas==2.2.3
+
+# NLP / Feature Engineering
+# (TF-IDF is provided by scikit-learn)
+
+# MLOps Experiment Tracking
+mlflow==2.19.0
+
+# Data Version Control
+dvc==3.56.0
+
+# Supabase client (for production DB integration)
+supabase==2.11.0
+
+# Evidently AI (drift monitoring)
+evidently==0.6.7
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.28.1
