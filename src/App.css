@@ -1,0 +1,11 @@
+/*
+  App.css — SmartSupport MLOps Platform
+  Global app-level overrides beyond index.css utilities.
+*/
+
+/* Ensure the root fills the full viewport height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
